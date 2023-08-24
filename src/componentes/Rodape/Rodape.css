@@ -1,8 +1,5 @@
 .footer {
     background-color: #000;
-    background-image: url(/public/imagens/Fundo.svg);
-    background-repeat: no-repeat;
-    background-size:contain ;
     color: #FFF;
     padding: 80px;
     display: flex;

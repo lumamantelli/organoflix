@@ -1,7 +1,7 @@
 .categoria {
+    background-image: url(/public/imagens/fundo1.svg);
     text-align: center;
     padding: 32px;
-
 }
 
 .categoria h3 {

@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="App">
      <Banner/>
-     <Formulario times={categorias.map(categoria => categoria.nome)} aSerieCadastrada={serie => aNovaSerieCadastrada(serie)}/>
+     <Formulario categorias={categorias.map(categoria => categoria.nome)} aSerieCadastrada={serie => aNovaSerieCadastrada(serie)}/>
 
     {categorias.map(categoria => <Categoria
       key={categoria.nome} 
